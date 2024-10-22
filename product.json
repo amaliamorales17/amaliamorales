@@ -1,0 +1,53 @@
+{
+  
+  "product":[{
+    
+    "name": "Apple",
+    "description": "Apples are a good source of nutrients, including fiber, vitamin C, and antioxidants which can help support healthy digestion, brain health, and weight management.",
+    "image": "apple.jpg",
+    "price": "₱80.00 per kilo"
+    },
+  {
+    "name": "Strawberry",
+    "description": "Strawberries high levels of vitamin C and other antioxidants help reduce the risk of serious health.",
+    "image": "strawberry.jpg",
+    "price": "₱150.00 per kilo"
+    },
+  {
+    "name": "Mango",
+    "description": "Mango is rich in vitamins, minerals, and antioxidants, and it has been associated with many health benefits.",
+    "image": "mango.jpg",
+    "price": "₱90.00 per kilo"
+    },
+  {
+    "name": "Grapes",
+    "description": "Grapes are rich in nutrients, boost your immunity, provide antioxidants, promote better sleep.",
+    "image": "grapes.jpg",
+    "price": "₱120.00 per kilo"
+   },
+  {
+    "name": "Avocado",
+    "description": "Avocados are an excellent source of monounsaturated fat.",
+    "image": "avocado.jpg",
+    "price": "₱90.00 per kilo" 
+    },
+  {
+    "name": "Watermelon",
+    "description": "Watermelon contains a variety of nutrients, including potassium, magnesium, and vitamins A and C.",
+    "image": "watermelon.jpg",
+    "price": "₱180.00 per kilo"
+    },
+  {
+    "name": "Papaya",
+    "description": "Papayas contain high levels of antioxidants, such as vitamin A.",
+    "image": "papaya.jpg",
+    "price": "₱100.00 per kilo"
+   },
+  {
+    "name": "Orange",
+    "description": "Oranges are filling and full of vitamins, minerals, and plant compounds that help prevent chronic diseases, reduce visceral fat, keep you hydrated, and aid in digestion.",
+    "image": "orange.jpg",
+    "price": "₱70.00 per kilo" 
+    }
+  ]
+}

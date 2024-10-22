@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONLINE FRUIT STORE</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align = "center">AMALIA ONLINE FRUIT STORE</h1>
+    <div class="container" id="fruits"></div>
+
+    <script>
+        // Fetch data from the JSON file
+      fetch('product.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('fruits');
+                
+      data.product.forEach(fruit => { 
+        const aliya= document.createElement('fruits');
+        aliya.className = 'fruit-card';
+        aliya.innerHTML = `<img src="${fruit.image}" fruit="${fruit.name}">
+             <h3>${fruit.name}</h3>
+             <p>${fruit.description}</p>
+             <p class="price">${fruit.price}</p>
+                    `;
+               container.appendChild(aliya);
+          });
+      })
+         .catch(error => {
+            console.error('error', error);
+         });
+    </script>
+</body>
+</html>
